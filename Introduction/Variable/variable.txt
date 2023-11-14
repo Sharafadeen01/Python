@@ -1,4 +1,161 @@
-#------------------Example1----------------------------#
+#Variable is a container for storing value in a computer memory location.
+
+#------------------Example1 Creating Variable name----------------------------#
 
 x = 10
 print(x)
+
+name = 'sharaf'        #string
+age = 44               #int
+salary = 3459.56       #float
+print(name,age,salary)
+
+#------------------Example4 Multiple Assighment----------------------------#
+
+a = 10
+b = 20
+c = 30
+print(a,b,c)
+
+a = b = c = 10
+print(a,b,c)
+
+x,y,z = 'rice', 'beans', 'plantain'
+print(x,y,z)
+  
+x,y,z = 'rice', 'beans', 'plantain'
+print(x)
+print(y)
+print(z)
+
+#------------------Example6 casting---------------------------------------------------------------#
+
+StdName,Age,PocMoni= 'Abdullahi',9,346.89
+print(str(StdName),int(Age),float(PocMoni))
+
+#------------------------type()---------------------------#
+#type() = get the data type of a variable 
+x = 'hameedah'
+y = 10.90
+z = True
+p = 34
+
+print(type(x))
+print(type(y))
+print(type(z))
+print(type(p))
+
+#------------------Different ways of Naming Variable----------------------#
+
+#Camel Case variable name
+myStudentName = 'Alao'
+print(myStudentName)
+
+#Pascal Case style
+MyStudentName = 'Zakariyah'
+print(MyStudentName) 
+
+#Snake Case style 
+My_Student_Name = 'Abdullah'
+print(My_Student_Name) 
+#-----------------------upack a collection------------#
+
+cars = ['Toyota,'bigdaddy, 'rx350']
+x,y,z = cars
+print(x)
+print(y)
+print(z)
+
+name =('moji','abdul','mowadah')
+x,y,z = name
+
+print(x)
+print(y)
+print(z)
+
+emp= ('sharaf',44, 'optics',25000)
+print(emp)
+
+name, age, profession, sal = emp
+print(name)
+print(age)
+print(profession)
+print(sal)
+
+#-----------------addition operators-----------------------#
+
+x = 6
+y = 8
+
+sum = x + y
+print(sum)
+print(x + y)
+
+#---------------------add two floating numbers with user input-------------#
+#num1 = input('Enter the first number: ')
+#num2 = input('Enter the second number: ')
+ 
+#sum = float(num1) + float(num2)
+#print('The sum of {0} and {1} is {2}'.format(num1,num2,sum))
+
+#--------------------add two integer numbers with user input-----#
+
+#n1 = input('Enter the first numnber:')
+#n2 = input('Enter the second number: ')
+
+#multiply = int(n1) * int(n2)
+#print('The multiple of {1} and {1} is {2}'.format(n1,n2,multiply))
+
+#--------------------add two numbers using function--------------#
+def add(x,y):
+    return x + y
+x = float(input('Enter the first number: '))
+y = float(input('Enter the second number: '))
+
+result = add(x,y)
+print(result)
+
+#------------------------type()---------------------------#
+#type() = get the data type of a variable 
+x = 'hameedah'
+y = 10.90
+z = True
+p = 34
+
+print(type(x))
+print(type(y))
+print(type(z))
+print(type(p))
+
+#-----------------addition operators-----------------------#
+
+x = 6
+y = 8
+
+sum = x + y
+print(sum)
+print(x + y)
+
+#---------------------add two floating numbers with user input-------------#
+#num1 = input('Enter the first number: ')
+#num2 = input('Enter the second number: ')
+ 
+#sum = float(num1) + float(num2)
+#print('The sum of {0} and {1} is {2}'.format(num1,num2,sum))
+
+#--------------------add two integer numbers with user input-----#
+
+#n1 = input('Enter the first numnber:')
+#n2 = input('Enter the second number: ')
+
+#multiply = int(n1) * int(n2)
+#print('The multiple of {1} and {1} is {2}'.format(n1,n2,multiply))
+
+#--------------------add two numbers using function--------------#
+def add(x,y):
+    return x + y
+x = float(input('Enter the first number: '))
+y = float(input('Enter the second number: '))
+
+result = add(x,y)
+print(result)
