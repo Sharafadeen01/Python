@@ -1,1 +1,9 @@
+a  = 5
+b = 3
 
+print(a & b) # AND
+print(a | b) # OR
+print(~a)    #XOR
+print(a ^ b)   #1'S Compliment
+print(a << b)    #Left-Shift
+print(a >> b)    #Right-Shift
