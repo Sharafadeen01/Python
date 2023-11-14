@@ -1,1 +1,4 @@
-
+age = 44             #int
+salary = 3459.90     #float
+complex = 1 + 3j     #complex
+print(type(age),type(float),type(salary),type(complex))
