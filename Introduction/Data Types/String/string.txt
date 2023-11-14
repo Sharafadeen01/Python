@@ -1,1 +1,79 @@
+#--Array String--#
+
+StdName = 'Abdullahi'  
+print(StdName[1])   
+print(StdName[0]) 
+print(StdName[7])
+print(StdName[-1])
+print(StdName[-2]) 
+print(StdName[-9])
+
+#-----String  through a loop------#
+
+for x in 'sharafadeen':
+    print(x)
+
+#-----String length---------------#
+
+Name = 'what is your name'
+print(len(Name))
+
+#------Slicing Strings------------#
+
+#StdName = 'Afolabi'
+#print(StdName[2:5])
+
+#StdName = 'Afolabi'  #slice from the start
+#print(StdName[:5])
+
+#StdName = 'Afolabi'  #slice to the End
+#print(StdName[2:])
+
+#------------------Negative Indexing--------------------#
+#StfName = 'Ridwan'
+#print(StfName[-3:-1])
+
+#-------------------Modify Strings--------------------------#
+
+#HwStf = 'Remote Network Operation Center'   #The upper() method returns the string in upper case
+#print(HwStf.upper())
+
+#HwStf = 'Remote Network Operation Center'   #The lower() method returns the string in lower case
+#print(HwStf.lower())
+
+#HwStf = 'Remote Network Operation Center'   #The strip() method removes any whitespace from the beginning or the end:
+#print(HwStf.strip())
+
+#HwStf = 'Remote Network Operation Center'   #The replace() method replaces a string with another string:
+#print(HwStf.replace('Remote','Virtual'))
+
+#HwStf = 'Remote Network Operation Center'   #The split() method splits the string into substrings if it finds instances of the separator.
+#print(HwStf.split(","))
+
+#-------------------String Concatenation----------------------------#
+
+#FrtName = 'Sharafadeen'
+#LstName = 'Zakariyah'
+#FullName = FrtName + LstName       #the two names will be close together without space
+#print(FullName)
+
+#FrtName = 'Sharafadeen'
+#LstName = 'Zakariyah'
+##FullName = FrtName + " " + LstName     #To add a space between them ,add ""
+#print(FullName)
+
+#---------------------Format String--------------------#
+
+#age = 44
+#words = "My name is Sharaf and I am {}"     #The format() method takes the passed arguments, formats them, and places them in the string where the placeholders {} are:
+#print(words.format(age))                    #Use the format() method to insert numbers into strings:
+
+
+#quantity = 23
+#item = 345
+#price =34.56
+#myorder = 'i want {} pieces of item {} for {} nairas.'
+#print(myorder.format(quantity,item,price))
+
+
 
