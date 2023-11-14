@@ -1,1 +1,197 @@
+#-------------List ordered items---------------#
 
+#List items are ordered, changeable, and allow duplicate values
+
+
+fruit =['apple', 'banana', 'banana',' pawpaw']   #Lists allow duplicate values:
+print(fruit)
+
+
+fruit =['apple', 'banana', 'banana',' pawpaw']   #To determine how many items a list has, use the len() function:
+print(len(fruit))
+
+
+fruit =['apple', 'banana', 'banana', 'pawpaw']   #String, int, and boolean data types:
+number = [1,2,3,4,5]
+anything = [True, False, False]
+print(fruit,number,anything)
+
+
+combination = ['sharaf',34, True,24, 'male']
+print(combination)
+
+fruit =['apple', 'banana', 'banana', 'pawpaw'] 
+print(type(fruit))
+
+
+#-----Access List Items--------#
+
+fruit =['apple', 'banana', 'orange', 'pawpaw']       #Print the second item of the list:
+print(fruit[1])
+
+#-------Negative Indexing------#
+fruit =['apple', 'banana', 'orange', 'pawpaw']       #Print the last item of the list:
+print(fruit[-1])
+
+
+#---------Range of Indexes-------#
+fruit =['apple', 'banana', 'orange', 'pawpaw']       #Print the last item of the list:
+print(fruit[1:3])                                                   #Return the third, fourth, and fifth items:
+
+fruit =['apple', 'banana', 'orange', 'pawpaw']       
+print(fruit[:3])
+
+
+fruit =['apple', 'banana', 'orange', 'pawpaw']       
+print(fruit[:3])
+
+
+fruit =['apple', 'banana', 'orange', 'pawpaw']       
+print(fruit[2:])
+
+#-------Range of Negative Indexes-------------#
+
+fruit =['apple', 'banana', 'orange', 'pawpaw']       
+print(fruit[-4:-1])
+
+
+#------------Check if the Item Exists----------#
+fruit =['apple', 'banana', 'orange', 'pawpaw']
+if 'mango' in fruit:       
+    print('Yes')
+else:
+    print('No')
+
+#-------------Change Item Value-----------------#
+fruit =['apple', 'banana', 'orange', 'pawpaw']
+fruit[0] = 'mango'       
+print(fruit)
+
+#---------Change a Range of Item Values----------#
+fruit =['apple', 'banana', 'orange', 'pawpaw']
+fruit[2:4] = ['pineapple', 'watermelon']       
+print(fruit)
+
+#--------------Insert Items---------------------#
+fruit =['apple', 'banana', 'orange', 'pawpaw']
+fruit.insert(4,'pineapple' " "'watermelon')     
+print(fruit)
+
+#-----------------Add List Items--------------#
+
+#-----------------Append Items----------------#
+fruit =['apple', 'banana', 'orange', 'pawpaw']         #To add an item to the end of the list, use the append() method:
+fruit.append('plantain')     
+print(fruit)                              
+
+#Insert Items
+fruit =['apple', 'banana', 'orange', 'pawpaw']         #To insert a list item at a specified index, use the insert() method.
+fruit.insert(1,'lemon')     
+print(fruit)
+
+#Extend List
+fruit =['apple', 'banana', 'orange', 'pawpaw']         #To append elements from another list to the current list, use the extend() method.
+soap = ['premier, 'joy', 'delta',' morning fresh']
+fruit.extend(soap)     
+print(fruit)
+
+
+#Add Any Iterable
+fruit =['apple', 'banana', 'orange', 'pawpaw']         #The extend() method does not have to append lists, you can add any iterable object (tuples, sets, dictionaries, etc.).
+soap = ('cocoanut','sugarcane')
+fruit.extend(soap)     
+print(fruit)
+
+#Remove List Items
+fruit =['apple', 'banana', 'orange', 'pawpaw']         #The extend() method does not have to append lists, you can add any iterable object (tuples, sets, dictionaries, etc.).
+fruit.remove('apple')     
+print(fruit)
+
+#fruit =['apple', 'banana', 'banana', 'orange', 'pawpaw']         #If there is more than one item with the specified value, the remove() method removes the first occurrence:
+fruit.remove('banana') 
+print(fruit)
+
+#Remove Specified Index
+
+fruit =['apple','banana','cocoanut','orange','pawpaw']         #The pop() method removes the specified index.
+fruit.pop(3)
+print(fruit)
+
+fruit =['apple','banana','cocoanut','orange','pawpaw']         #If you do not specify the index, the pop() method removes the last item.
+fruit.pop()
+print(fruit)
+
+fruit =['apple','banana','cocoanut','orange','pawpaw']         #The del keyword also removes the specified index:
+del fruit[2]
+print(fruit)
+
+#Clear the List
+
+fruit =['apple', 'banana', 'cocoanut', 'orange', 'pawpaw']         #The clear() method empties the list. The list still remains, but it has no content.
+fruit.clear()
+print(fruit)
+
+
+#For Loop Lists
+fruit =['apple', 'banana', 'cocoanut', 'orange', 'pawpaw']         #The clear() method empties the list. The list still remains, but it has no content.
+for x in fruit:
+    print(x)
+
+#For Loops strings
+for x in 'sharafadeen':
+    print(x)
+
+for x in '123456789':
+    print(x)
+    
+#Break Statement
+fruit =['apple', 'banana', 'cocoanut', 'orange', 'pawpaw']
+for x in fruit:
+    print(x)
+    if x =='cocoanut':
+     break
+
+#fruit = ['apple', 'banana', 'cocoanut', 'orange', 'pawpaw']
+for x in fruit:
+   if x == 'banana':
+    break 
+print(x)
+
+fruit=['apple', 'banana', 'cocoanut', 'orange', 'pawpaw']
+for x in fruit:
+    if x == 'cocoanut':
+        continue
+    print(x)
+
+#The range() Function
+
+for x in range(6):
+    print(x)
+for x in range(2,6):
+    print(x)
+
+for x in range (2,15,3):
+    print(x)
+
+#Else in For Loop
+
+for x in range(6):
+    print(x)
+else:
+    print('The End')  
+    
+for x in range(9):
+    if x == 3: break
+    print(x)
+else:
+    print('End') 
+    
+#Nested Loops: A nested loop is a loop inside a loop.
+#The "inner loop" will be executed one time for each iteration of the "outer loop":
+
+color = ['Yellow', 'Brown', 'Green']           
+fruits = ['Orange', 'cocoanut', 'watermelon']
+
+for x in color:
+    for y in fruits:
+        print(x,y)
