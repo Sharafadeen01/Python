@@ -7,3 +7,18 @@ print(~a)    #XOR
 print(a ^ b)   #1'S Compliment
 print(a << b)    #Left-Shift
 print(a >> b)    #Right-Shift
+
+
+Operators	           Meaning	               Examples
+#&	                 Bitwise AND	           X & Y = 0000
+#|	                 OR	                     X | Y = 1110
+#^	                 exclusive OR	           X ^ Y = 1110
+#~	                 complement	             ~X = 00001001 (Not operator will convert all 0 into 1.)
+#<<	                 Shift left	             X << 1 = 00001100 (Bits will move 1 step left. If we use 2 or 3, then they shift accordingly)
+#>>	                 Shift right	           Y >> 1 = 00000100
+
+#x	y	x & y	X | y	x ^ y
+#0	0	  0	      0	      0
+#0	1	  0	      1	      1
+#1	0	  0	      1	      1
+#1	1	  1	      1	      0
