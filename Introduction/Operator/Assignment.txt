@@ -1,1 +1,79 @@
+#------------------------------------Assignment Operators-------------------------------------------------------------#
+#Python Assignment Operators	                  Example	                Explanation
+#          =	                                    x= 25	                Value 25 is assigned to x
+#          +=	                                  x += 25	                This is same as               x = x + 25
+#          -=	                                  x -= 25	                Same as                       x = x – 25
+#          *=	                                  x *= 25	                This is same as               x = x * 25
+#          /=	                                  x /= 25	                Same as                       x = x / 25
+#          %=	                                  x %= 25	                This is identical to          x = x % 25
+#         //=	                                 x //= 25	                Same as                       x = x // 25
+#         **=	                                 x **= 25	                This is same as               x = x ** 25
+#          &=	                                  x &= 25	                This is same as               x = x & 25
+#          |=	                                  x |= 25	                This is same as               x = x | 25
+#          ^=	                                  x ^= 25	                Same as                       x = x ^ 25
+#         <<=	                                 x <<= 25	                This is same as               x = x << 25
+#         >>=	                                 x >>= 25	                Same as                       x = x >> 25
+
+#Total += a means
+
+#Total = Total + a ⇒ 21 + 7 = 28
+
+a = 7
+Total = 21
+
+Total += a # Using += 
+print("The Value of the Total after using += is: ", Total)
+Total -= a # Using -= 
+print("The Value of the Total after using -= is: ", Total)
+Total *= a # Using *= 
+print("The Value of the Total after using *= is: ", Total)
+Total //= a # Using //= 
+print("The Value of the Total after using //= is: ", Total)
+Total **= a # Using **= 
+print("The Value of the Total after using **= is: ", Total)
+Total /= a # Using /= 
+print("The Value of the Total after using /= is: ", Total)
+Total %= a # Using %= 
+print("The Value of the Total after using %= is: ", Total)
+
+x = 9
+y = 65
+x &= y # Using &= 
+print("The Value of the x after using &= is: ", x)
+x |= 9 # Using |= 
+print("The Value of the x after using |= is: ", x)
+x ^= y # Using ^= 
+print("The Value of the x after using ^= is: ", x)
+
+
+#----------------------Assignment Operator-----------------#
+#a = 10
+#a += 2
+#print (a)
+
+#x =2
+#x -= 3
+#print(x)
+
+#y = 2
+#y *= 3
+#print(y)
+
+#y = 10
+#y /= 2
+#print(y)
+
+#y = 6
+#y //= 3
+#print(y)
+
+#y = 10
+#y %= 2
+#print(y)
+
+#y = 2
+#y **= 3
+#print(y)
+
+
 
