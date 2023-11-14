@@ -5,3 +5,28 @@ c = 4
 print(a < b and a > c)
 print(a < b or a > c)
 print(not a > b)
+
+
+Python Logical Operators	Description	                                                                  Example
+#AND	                    It will return true when both conditions are true	                          If (age > 18 AND age <=35)
+#OR	                        It will return true when at least one of the conditions is true	              If (age > 35 OR age < 60)
+#NOT                     	If the condition is true, the logical NOT operator makes it false             If age = True, then NOT( age) returns false.
+
+#Condition 1	        Condition 2	 Condition 1 AND Condition 2	        Condition 1 OR Condition 2
+#True	                True	         True	                                True
+#True	                False	         False	                                True
+#False	                True	         False	                                True
+#False	                False	         False	                                False
+
+#age = 29
+# AND Example
+#if age < 33 and age > 20:
+#	print ("Young Man")
+#else:
+#	print(" Not Eligible ")
+
+# OR Example
+#if age < 18 or age > 60:
+#	print(" Not Eligible to Work ")
+#else:
+#	print(" Please forward Your Resume ")
